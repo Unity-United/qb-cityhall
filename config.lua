@@ -14,7 +14,7 @@ Config.AvailableJobs = { -- Only used when not using qb-jobs.
 
 Config.Cityhalls = {
     { -- Cityhall 1
-        coords = vec3(-265.0, -963.6, 31.2),
+        coords = vector3(-550.07, -195.17, 38.23),
         showBlip = true,
         blipData = {
             sprite = 487,
@@ -27,16 +27,6 @@ Config.Cityhalls = {
             ["id_card"] = {
                 label = "ID Card",
                 cost = 50,
-            },
-            ["driver_license"] = {
-                label = "Driver License",
-                cost = 50,
-                metadata = "driver"
-            },
-            ["weaponlicense"] = {
-                label = "Weapon License",
-                cost = 50,
-                metadata = "weapon"
             },
         }
     },
@@ -65,7 +55,7 @@ Config.Peds = {
     -- Cityhall Ped
     {
         model = 'a_m_m_hasjew_01',
-        coords = vec4(-262.79, -964.18, 30.22, 181.71),
+        coords = vector4(-553.13, -202.03, 38.23, 328.74),
         scenario = 'WORLD_HUMAN_STAND_MOBILE',
         cityhall = true,
         zoneOptions = { -- Used for when UseTarget is false
