@@ -55,7 +55,7 @@ Config.Peds = {
     -- Cityhall Ped
     {
         model = 'a_m_m_hasjew_01',
-        coords = vector4(-553.13, -202.03, 38.23, 328.74),
+        coords = vector4(-553.13, -202.03, 37.23, 328.74),
         scenario = 'WORLD_HUMAN_STAND_MOBILE',
         cityhall = true,
         zoneOptions = { -- Used for when UseTarget is false
